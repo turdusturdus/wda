@@ -1,0 +1,40 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+.sort-controls,
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.sort-controls button,
+.pagination button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.sort-controls button:hover,
+.pagination button:hover {
+  background-color: #45a049;
+}
